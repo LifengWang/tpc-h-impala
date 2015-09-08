@@ -1,3 +1,4 @@
+hadoop fs -rm -r -f -skipTrash /tpch/
 /usr/bin/hadoop fs -mkdir /tpch/ 
 
 /usr/bin/hadoop fs -mkdir /tpch/customer
